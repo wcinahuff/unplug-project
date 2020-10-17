@@ -86,6 +86,188 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*    Base Styles Header & Footer     */
+
+header, 
+footer {
+
+}
+
+/*     Header Styles     */
+
+header .content-wrapper{
+
+}
+
+.header-divider{
+
+}
+
+header nav{
+
+}
+
+header nav ul{
+
+}
+
+header nav ul li{
+
+}
+
+/*     Main Styles     */
+
+main{
+
+}
+
+/* Hero Area */
+
+.hero-area{
+
+}
+
+.hero-area .content-wrapper{
+
+}
+
+.hero-area h1{
+
+}
+
+/* Newsletter Signup */
+
+aside{
+
+}
+
+aside .content-wrapper{
+
+}
+
+aside .form-description{
+
+}
+
+aside h3{
+
+}
+
+aside p{
+
+}
+
+aside .form{
+
+}
+
+/* Features */
+
+
+.features{
+
+}
+
+.features .content-wrapper{
+
+}
+
+.features h1{
+
+}
+
+.features-items{
+
+}
+
+.features-items article{
+
+}
+
+.features-items article p{
+
+}
+
+.fontawesome-icon{
+
+}
+
+.features-item-description{
+
+}
+
+/* Reviews */
+
+.reviews{
+
+}
+
+.reviews .content-wrapper{
+
+}
+
+.reviews h1{
+
+}
+
+.reviews article{
+
+}
+
+.reviews article h3{
+
+}
+
+.reviews article p{
+
+}
+
+/*     Footer Styles     */
+
+footer .content-wrapper{
+
+}
+
+.footer-content{
+
+}
+
+.footer-content h3{
+
+}
+
+.contact{
+
+}
+
+.contact h3{
+
+}
+
+.contact address{
+
+}
+
+.social{
+
+}
+
+.social h3{
+
+}
+
+.social-icons{
+
+}
+
+.social-icons p{
+
+}
+
+.copyright{
+  
+}
+
 
 /* ==========================================================================
    Helper classes
