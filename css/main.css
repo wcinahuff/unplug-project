@@ -86,186 +86,150 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/*    Base Styles Header & Footer     */
+/*    Mobile Base Styles Header & Footer    */
 
 header, 
 footer {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/*     Header Styles     */
+/*     Header Styles Homepage    */
 
 header .content-wrapper{
-
+  display: flex;
 }
 
-.header-divider{
-
-}
+.header-divider{}
 
 header nav{
-
+  display: flex;
 }
 
 header nav ul{
-
+  display: flex;
 }
 
-header nav ul li{
+header nav ul li{}
 
-}
-
-/*     Main Styles     */
-
-main{
-
-}
+/*     Main Styles Homepage    */
 
 /* Hero Area */
 
 .hero-area{
-
+  display: flex;
 }
 
-.hero-area .content-wrapper{
+.hero-area .content-wrapper{}
 
-}
-
-.hero-area h1{
-
-}
+.hero-area h1{}
 
 /* Newsletter Signup */
 
 aside{
-
+  display: flex;
 }
 
-aside .content-wrapper{
+aside .content-wrapper{}
 
-}
+aside .form-description{}
 
-aside .form-description{
+aside h3{}
 
-}
-
-aside h3{
-
-}
-
-aside p{
-
-}
+aside p{}
 
 aside .form{
-
+  display: flex;
 }
 
-/* Features */
+/* Features Homepage*/
 
 
 .features{
-
+  display: flex;
 }
 
-.features .content-wrapper{
+.features .content-wrapper{}
 
-}
-
-.features h1{
-
-}
+.features h1{}
 
 .features-items{
-
+  display: flex;
 }
 
-.features-items article{
+.features-items article{}
 
-}
+.features-items article p{}
 
-.features-items article p{
+.fontawesome-icon{}
 
-}
+.features-item-description{}
 
-.fontawesome-icon{
-
-}
-
-.features-item-description{
-
-}
-
-/* Reviews */
+/* Reviews Homepage*/
 
 .reviews{
-
+  display: flex;
 }
 
-.reviews .content-wrapper{
+.reviews .content-wrapper{}
 
-}
+.reviews h1{}
 
-.reviews h1{
+.reviews article{}
 
-}
+.reviews article h3{}
 
-.reviews article{
-
-}
-
-.reviews article h3{
-
-}
-
-.reviews article p{
-
-}
+.reviews article p{}
 
 /*     Footer Styles     */
 
-footer .content-wrapper{
+footer .content-wrapper{}
 
-}
+.footer-content{}
 
-.footer-content{
-
-}
-
-.footer-content h3{
-
-}
+.footer-content h3{}
 
 .contact{
-
+  display: flex;
 }
 
-.contact h3{
+.contact h3{}
 
+.contact address{}
+
+footer .social{
+  display: flex;
 }
 
-.contact address{
+footer .social h3{}
 
+footer .social-icons{
+  display: flex;
 }
 
-.social{
+footer .social-icons p{}
 
+footer .copyright{}
+
+/*     About Page Styles     */
+
+.mission{
+  display: flex;
 }
 
-.social h3{
-
+.contact-section{
+  display: flex;
 }
 
-.social-icons{
+/*     FAQ Page Styles     */
 
+.faq{
+  display: flex;
 }
 
-.social-icons p{
-
-}
-
-.copyright{
-  
+.faq .content-wrapper{
+  display: flex;
 }
 
 
