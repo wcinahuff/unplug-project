@@ -86,103 +86,40 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-/*    Mobile Base Styles Header & Footer    */
+/*     Base Styles Header & Footer    */
 
 header, 
 footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
-/*     Header Styles Homepage    */
 
 header .content-wrapper{
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-.header-divider{}
+/* .header-divider{} */
 
 header nav{
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header nav ul{
   display: flex;
+  justify-content: space-around;
 }
 
-header nav ul li{}
+/* header nav ul li{}
 
-/*     Main Styles Homepage    */
-
-/* Hero Area */
-
-.hero-area{
-  display: flex;
-}
-
-.hero-area .content-wrapper{}
-
-.hero-area h1{}
-
-/* Newsletter Signup */
-
-aside{
-  display: flex;
-}
-
-aside .content-wrapper{}
-
-aside .form-description{}
-
-aside h3{}
-
-aside p{}
-
-aside .form{
-  display: flex;
-}
-
-/* Features Homepage*/
-
-
-.features{
-  display: flex;
-}
-
-.features .content-wrapper{}
-
-.features h1{}
-
-.features-items{
-  display: flex;
-}
-
-.features-items article{}
-
-.features-items article p{}
-
-.fontawesome-icon{}
-
-.features-item-description{}
-
-/* Reviews Homepage*/
-
-.reviews{
-  display: flex;
-}
-
-.reviews .content-wrapper{}
-
-.reviews h1{}
-
-.reviews article{}
-
-.reviews article h3{}
-
-.reviews article p{}
-
-/*     Footer Styles     */
 
 footer .content-wrapper{}
 
@@ -202,34 +139,136 @@ footer .social{
   display: flex;
 }
 
-footer .social h3{}
+footer .social h3{} */
 
 footer .social-icons{
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-footer .social-icons p{}
+footer .social-icons p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-footer .copyright{}
+/* footer .copyright{} */
 
-/*     About Page Styles     */
+/* --------------------Mobile Styles Hompage---------------------- */
+
+/* Hero Area */
+
+.hero-area{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+/* .hero-area .content-wrapper{}
+
+.hero-area h1{} */
+
+/* Newsletter Signup */
+
+aside{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+/* 
+aside .content-wrapper{}
+
+aside .form-description{}
+
+aside h3{}
+
+aside p{}
+
+aside .form{
+  display: flex;
+} */
+
+/* Features Homepage*/
+
+
+.features{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+/* .features .content-wrapper{}
+
+.features h1{} */
+
+.features .features-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/* .features-items article{}
+
+.features-items article p{}
+
+.fontawesome-icon{}
+
+.features-item-description{} */
+
+/* Reviews Homepage*/
+
+.reviews{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+/* .reviews .content-wrapper{}
+
+.reviews h1{}
+
+.reviews article{}
+
+.reviews article h3{}
+
+.reviews article p{} */
+
+/*  ==========================
+        About Page Styles    
+    ========================== */
 
 .mission{
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+
 }
 
 .contact-section{
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
-
-/*     FAQ Page Styles     */
-
+  /* ==================
+      FAQ Page Styles    
+    ================== */
 .faq{
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .faq .content-wrapper{
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 
