@@ -96,6 +96,9 @@ footer {
   flex-flow: row wrap;
 }
 
+header{
+  padding: 15px 0;
+}
 
 header .content-wrapper{
   display: flex;
@@ -105,6 +108,9 @@ header .content-wrapper{
   width: 55%;
 }
 
+header a{
+  padding-bottom: 10px;
+}
 .header-divider{
   width: 100%;
 }
@@ -115,16 +121,23 @@ header nav{
   align-items: center;
   flex-flow: row wrap;
   width: 60%;
+  padding-top: 20px
+
 }
 
 header nav ul{
   display: flex;
   justify-content: space-around;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 /* header nav ul li{} */
 
+footer {
+  flex-direction: column;
+}
 
 footer .content-wrapper{
   width: 55%;
@@ -169,12 +182,19 @@ footer .social-icons p{
 .hero-area{
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
+  width: 90%;
+  margin: 0 0 0 20px;
+  padding-top: 55px;
 }
 
-/* .hero-area .content-wrapper{}
+/* .hero-area .content-wrapper{} */
 
-.hero-area h1{} */
+.hero-area h1{
+  margin: 0 ;
+  /* padding-left: 20px; */
+}
 
 /* Newsletter Signup */
 
@@ -183,19 +203,44 @@ aside{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 90%;
+  margin: 0;
+  
 }
-/* 
-aside .content-wrapper{}
 
-aside .form-description{}
+aside .content-wrapper{
+  width: 100%;
+  padding-left: 20px;
+}
 
-aside h3{}
+aside .form-description{
+  margin-top: 30px;
+}
 
-aside p{}
+aside .form-description h3{
+  margin: 0;
+}
+
+.form-description p{
+  margin-top: 15px;
+}
 
 aside .form{
   display: flex;
-} */
+  flex-flow: row wrap;
+  width: 100%;
+  margin: 0;
+}
+
+aside .form h3{
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+aside .form input{
+  width: 100%;
+  margin-bottom: 20px;
+}
 
 /* Features Homepage*/
 
@@ -206,9 +251,11 @@ aside .form{
   flex-flow: row wrap;
 }
 
-/* .features .content-wrapper{} */
+.features .content-wrapper{
+  padding: 0 35px 0 20px;
+}
 
-/* .features h1{} */
+/* .features h2{} */
 
 .features .features-items{
   display: flex;
@@ -217,15 +264,15 @@ aside .form{
   flex-flow: row wrap;
 }
 
-.features article{
+.features-items article {
   width: 55%;
 }
 
-/* .features-items article p{} */
-
 /* .fontawesome-icon{} */
 
-/* .features-item-description{} */
+.features-item-description{
+  text-align: center;
+}
 
 /* Reviews Homepage*/
 
@@ -235,7 +282,9 @@ aside .form{
   flex-flow: row wrap;
 }
 
-/* .reviews .content-wrapper{} */
+.reviews .content-wrapper{
+  padding: 20px;
+}
 
 /* .reviews h1{} */
 
