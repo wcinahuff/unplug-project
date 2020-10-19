@@ -102,44 +102,51 @@ header .content-wrapper{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 55%;
 }
 
-/* .header-divider{} */
+.header-divider{
+  width: 100%;
+}
 
 header nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul{
   display: flex;
   justify-content: space-around;
+  width: 100%;
 }
 
-/* header nav ul li{}
+/* header nav ul li{} */
 
 
-footer .content-wrapper{}
+footer .content-wrapper{
+  width: 55%;
+}
 
-.footer-content{}
+/* .footer-content{} */
 
-.footer-content h3{}
+/* .footer-content h3{} */
 
-.contact{
+/* .contact{
   display: flex;
-}
+} */
 
-.contact h3{}
+/* .contact h3{} */
 
-.contact address{}
+/* .contact address{} */
 
-footer .social{
+/* footer .social{
   display: flex;
-}
+} */
 
-footer .social h3{} */
+/* footer .social h3{} */
 
 footer .social-icons{
   display: flex;
@@ -199,9 +206,9 @@ aside .form{
   flex-flow: row wrap;
 }
 
-/* .features .content-wrapper{}
+/* .features .content-wrapper{} */
 
-.features h1{} */
+/* .features h1{} */
 
 .features .features-items{
   display: flex;
@@ -210,13 +217,15 @@ aside .form{
   flex-flow: row wrap;
 }
 
-/* .features-items article{}
+.features article{
+  width: 55%;
+}
 
-.features-items article p{}
+/* .features-items article p{} */
 
-.fontawesome-icon{}
+/* .fontawesome-icon{} */
 
-.features-item-description{} */
+/* .features-item-description{} */
 
 /* Reviews Homepage*/
 
@@ -226,15 +235,17 @@ aside .form{
   flex-flow: row wrap;
 }
 
-/* .reviews .content-wrapper{}
+/* .reviews .content-wrapper{} */
 
-.reviews h1{}
+/* .reviews h1{} */
 
-.reviews article{}
+/* .reviews article{} */
 
-.reviews article h3{}
+.reviews h3{
+  width: 50%;
+}
 
-.reviews article p{} */
+/* .reviews article p{} */
 
 /*  ==========================
         About Page Styles    
