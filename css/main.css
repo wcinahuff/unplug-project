@@ -420,8 +420,116 @@ aside .form input{
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px){
+  /* ---- Tablet Styles ---- */
+
+  header{
+    padding: 0;
+  }
+
+  header .content-wrapper{
+    width: 640px;
+    margin: 30px 0;
+  }
+
+  .header-divider{
+    display: none;
+  }
+  
+  header a{
+    width: 50%;
+    padding: 0;
+  }
+  header nav{
+    width: 50%;
+    padding: 0;
+  }
+
+  header nav ul{
+    width: 50%;
+  }
+
+  /* ------ Hero Area ------  */
+
+  .hero-area{
+    width: 640px;
+    margin: 100px 0;
+    padding: 0;
+  }
+
+  aside .content-wrapper{
+    display: flex;
+    width: 640px;
+    margin: 0 65px ;
+    padding: 0;
+    flex-wrap: nowrap;
+  }
+
+  aside .content-wrapper .form-description{
+    width: 50%;
+    margin: 0;
+    flex-basis: 250px;
+    padding-right: 70px;
+  }
+
+  aside .content-wrapper .form{
+    width: 50%;
+    margin: 0;
+    flex-basis: 290px;
+    padding-left: 30px;
+  }
+
+
+  /*  ------- Features Area -------- */
+
+  .features .content-wrapper{
+    width: 640px;
+    margin: 0 65px;
+    padding: 0;
+  }
+
+  .features-items article{
+    display: flex;
+    width: 50%;
+    flex-flow: row wrap ;
+  }
+
+  .features-item-description{
+    padding: 0 65px;
+  }
+
+  .reviews{
+    width: 640px;
+    margin: 0 65px;
+    padding: 0;
+  }
+
+  /*  ----- Footer Styles -----  */
+
+  footer .content-wrapper{
+    width: 640px;
+  }
+
+  .footer-content{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  footer .contact{
+    width: 320px;
+  }
+
+  footer .social{
+    width: 320px;
+  }
+
+
+}
+
+
+
+@media only screen and (min-width: 1200px){
+  /* ---- Desktop Styles ---- */
 }
 
 @media print,
