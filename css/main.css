@@ -498,6 +498,7 @@ aside .form input{
     padding: 0 65px;
   }
 
+  /*  ---- Reviews Area -----  */
   .reviews{
     width: 640px;
     margin: 0 65px;
@@ -522,6 +523,47 @@ aside .form input{
   footer .social{
     width: 320px;
   }
+
+  /* ==============================================
+  -----------------About Page --------------------- 
+  =================================================*/
+
+  
+  .mission-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 65px;
+}
+
+.mission-content p {
+    width: 320px;
+}
+
+.contact-section .content-wrapper h2 {
+    width: 560px;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ==========================================================================
+   FAQ Page
+   ========================================================================== */
+   .faq .content-wrapper {
+    justify-content: space-between;
+}
+
+.faq-content {
+    flex-basis: 40%;
+}
+
+.faq h2 {
+    width: 100%;
+}
 
 
 }
