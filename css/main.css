@@ -255,7 +255,7 @@ aside .form input{
   padding: 0 35px 0 20px;
 }
 
-/* .features h2{} */
+/* .features .content-wrapper h2{} */
 
 .features .features-items{
   display: flex;
@@ -437,11 +437,11 @@ aside .form input{
   }
   
   header a{
-    width: 50%;
+    width: 116px;
     padding: 0;
   }
   header nav{
-    width: 50%;
+    width: 128px;
     padding: 0;
   }
 
@@ -505,23 +505,37 @@ aside .form input{
     padding: 0;
   }
 
+  .reviews .content-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+  }
+
+  .reviews .content-wrapper p{
+    width: 315px;
+  }
+
   /*  ----- Footer Styles -----  */
 
   footer .content-wrapper{
-    width: 640px;
+    width: 65%;
+    margin: 100px 0;
   }
 
   .footer-content{
     display: flex;
-    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
   }
 
   footer .contact{
-    width: 320px;
+  margin-bottom: 0;
+  width: 160px;
   }
 
   footer .social{
-    width: 320px;
+  margin-bottom: 0;
+  width: 70px;
   }
 
   /* ==============================================
@@ -572,6 +586,55 @@ aside .form input{
 
 @media only screen and (min-width: 1200px){
   /* ---- Desktop Styles ---- */
+
+.content-wrapper {
+  max-width: 1200px;
+}
+
+/* Hero */
+.hero-area h1 {
+ width: 55%;
+}
+
+/* Aside */
+aside .content-wrapper {
+ justify-content: space-around;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+ width: 25%x;
+}
+
+/* Features */
+.features h2 {
+ width:75% ;
+}
+
+.features article {
+ flex-basis: 200px;
+}
+
+/* Reviews */ 
+.reviews article div {
+ width: 75%;
+}
+
+/* ==========================================================================
+About Page
+========================================================================== */
+.mission h2,
+.contact-section .content-wrapper h2 {
+ width: 80%;
+}
+
+/* ==========================================================================
+FAQ Page
+========================================================================== */
+.faq h2 {
+ width: 100%;
+}
+
 }
 
 @media print,
